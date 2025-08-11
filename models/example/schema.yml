@@ -19,3 +19,325 @@ models:
         data_tests:
           - unique
           - not_null
+
+  - name: store_sales_data
+    description: "Sales performance and related KPIs for stores"
+    columns:
+      - name: comp_status_desc
+        description: ""
+        data_type: text
+      - name: comp_status_id
+        description: ""
+        data_type: text
+      - name: conv_currency_desc
+        description: ""
+        data_type: text
+      - name: conv_currency_id
+        description: ""
+        data_type: text
+      - name: date
+        description: ""
+        data_type: date
+      - name: fiscal_period_desc
+        description: ""
+        data_type: text
+      - name: fiscal_period_id
+        description: ""
+        data_type: text
+      - name: fiscal_week_desc
+        description: ""
+        data_type: text
+      - name: fiscal_week_id
+        description: ""
+        data_type: text
+      - name: fiscal_week_mmm_w
+        description: ""
+        data_type: text
+      - name: fiscal_year_desc
+        description: ""
+        data_type: text
+      - name: fiscal_year_id
+        description: ""
+        data_type: text
+      - name: gender
+        description: ""
+        data_type: text
+      - name: region_desc
+        description: ""
+        data_type: text
+      - name: region_id
+        description: ""
+        data_type: text
+      - name: retail_brand_site_desc
+        description: ""
+        data_type: text
+      - name: retail_brand_site_id
+        description: ""
+        data_type: text
+      - name: retail_district_desc
+        description: ""
+        data_type: text
+      - name: retail_district_id
+        description: ""
+        data_type: text
+      - name: row_count_lh1090_store_reporting
+        description: ""
+        data_type: integer
+      - name: sales_org_desc
+        description: ""
+        data_type: text
+      - name: sales_org_id
+        description: ""
+        data_type: text
+      - name: site_id
+        description: ""
+        data_type: text
+      - name: site_category_id
+        description: ""
+        data_type: text
+      - name: site_format_desc
+        description: ""
+        data_type: text
+      - name: site_key_id
+        description: ""
+        data_type: text
+      - name: site_name_id
+        description: ""
+        data_type: text
+      - name: site_number_id
+        description: ""
+        data_type: text
+      - name: site_status_desc
+        description: ""
+        data_type: text
+      - name: site_status_id
+        description: ""
+        data_type: text
+      - name: site_type_desc
+        description: ""
+        data_type: text
+      - name: site_type_id
+        description: ""
+        data_type: text
+      - name: zone_id
+        description: ""
+        data_type: text
+      - name: aur
+        description: ""
+        data_type: numeric
+      - name: aur_lly
+        description: ""
+        data_type: numeric
+      - name: aur_ly
+        description: ""
+        data_type: numeric
+      - name: aur_ty_lly_percent
+        description: ""
+        data_type: numeric
+      - name: aur_ty_lly_var
+        description: ""
+        data_type: numeric
+      - name: aur_ty_ly_percent
+        description: ""
+        data_type: numeric
+      - name: aur_ty_ly_var
+        description: ""
+        data_type: numeric
+      - name: avt
+        description: ""
+        data_type: numeric
+      - name: avt_lly
+        description: ""
+        data_type: numeric
+      - name: avt_ly
+        description: ""
+        data_type: numeric
+      - name: avt_ty_lly_percent
+        description: ""
+        data_type: numeric
+      - name: avt_ty_lly_var
+        description: ""
+        data_type: numeric
+      - name: avt_ty_ly_percent
+        description: ""
+        data_type: numeric
+      - name: avt_ty_ly_var
+        description: ""
+        data_type: numeric
+      - name: count_site_status_id
+        description: ""
+        data_type: text
+      - name: eoh_str_qty
+        description: ""
+        data_type: text
+      - name: gm_merch
+        description: ""
+        data_type: numeric
+      - name: gm_percent_merch
+        description: ""
+        data_type: numeric
+      - name: gm_percent_lly_merch
+        description: ""
+        data_type: numeric
+      - name: gm_percent_ly_merch
+        description: ""
+        data_type: numeric
+      - name: gm_bps_ty_lly_merch
+        description: ""
+        data_type: numeric
+      - name: gm_bps_ty_ly_merch
+        description: ""
+        data_type: numeric
+      - name: gm_lly_merch
+        description: ""
+        data_type: numeric
+      - name: gm_ly_merch
+        description: ""
+        data_type: numeric
+      - name: gm_ty_lly_percent_merch
+        description: ""
+        data_type: numeric
+      - name: gm_ty_lly_var_merch
+        description: ""
+        data_type: numeric
+      - name: gm_ty_ly_percent_merch
+        description: ""
+        data_type: numeric
+      - name: gm_ty_ly_var_merch
+        description: ""
+        data_type: numeric
+      - name: net_sls_amt
+        description: ""
+        data_type: numeric
+      - name: net_sls_amt_lly
+        description: ""
+        data_type: numeric
+      - name: net_sls_amt_ly
+        description: ""
+        data_type: numeric
+      - name: net_sls_amt_ty_lly_percent
+        description: ""
+        data_type: numeric
+      - name: net_sls_amt_ty_lly_var
+        description: ""
+        data_type: numeric
+      - name: net_sls_amt_ty_ly_percent
+        description: ""
+        data_type: numeric
+      - name: net_sls_amt_ty_ly_var
+        description: ""
+        data_type: numeric
+      - name: net_sls_qty
+        description: ""
+        data_type: integer
+      - name: net_sls_qty_lly
+        description: ""
+        data_type: integer
+      - name: net_sls_qty_ly
+        description: ""
+        data_type: integer
+      - name: net_sls_qty_ty_lly_percent
+        description: ""
+        data_type: numeric
+      - name: net_sls_qty_ty_lly_var
+        description: ""
+        data_type: numeric
+      - name: net_sls_qty_ty_ly_percent
+        description: ""
+        data_type: numeric
+      - name: row_count_store_sales_gender
+        description: ""
+        data_type: integer
+      - name: rtn_amt
+        description: ""
+        data_type: numeric
+      - name: rtn_amt_percent
+        description: ""
+        data_type: numeric
+      - name: rtn_amt_lly
+        description: ""
+        data_type: numeric
+      - name: rtn_amt_ly
+        description: ""
+        data_type: numeric
+      - name: rtn_amt_ty_ly_percent
+        description: ""
+        data_type: numeric
+      - name: rtn_bps_ty_lly
+        description: ""
+        data_type: numeric
+      - name: rtn_bps_ty_ly
+        description: ""
+        data_type: numeric
+      - name: sls_trfc_amt_ty_lly_percent
+        description: ""
+        data_type: numeric
+      - name: sls_trfc_amt_ty_ly_percent
+        description: ""
+        data_type: numeric
+      - name: sls_trfc_gm_ty_lly_percent_merch
+        description: ""
+        data_type: numeric
+      - name: sls_trfc_gm_ty_ly_percent_merch
+        description: ""
+        data_type: numeric
+      - name: str_pln_sls_amt
+        description: ""
+        data_type: numeric
+      - name: traffic_in
+        description: ""
+        data_type: integer
+      - name: traffic_in_lly
+        description: ""
+        data_type: integer
+      - name: traffic_in_ly
+        description: ""
+        data_type: integer
+      - name: traffic_in_ttl_conv_percent
+        description: ""
+        data_type: numeric
+      - name: traffic_in_ttl_conv_percent_lly
+        description: ""
+        data_type: numeric
+      - name: traffic_in_ttl_conv_percent_ly
+        description: ""
+        data_type: numeric
+      - name: traffic_in_ttl_conv_percent_ty_lly_var
+        description: ""
+        data_type: numeric
+      - name: traffic_in_ttl_conv_percent_ty_ly_var
+        description: ""
+        data_type: numeric
+      - name: traffic_in_ty_lly_percent
+        description: ""
+        data_type: numeric
+      - name: traffic_in_ty_lly_var
+        description: ""
+        data_type: numeric
+      - name: traffic_in_ty_ly_percent
+        description: ""
+        data_type: numeric
+      - name: traffic_in_ty_ly_var
+        description: ""
+        data_type: numeric
+      - name: upt
+        description: ""
+        data_type: numeric
+      - name: upt_lly
+        description: ""
+        data_type: numeric
+      - name: upt_ly
+        description: ""
+        data_type: numeric
+      - name: upt_ty_lly_percent
+        description: ""
+        data_type: numeric
+      - name: upt_ty_lly_var
+        description: ""
+        data_type: numeric
+      - name: upt_ty_ly_percent
+        description: ""
+        data_type: numeric
+      - name: upt_ty_ly_var
+        description: ""
+        data_type: numeric
