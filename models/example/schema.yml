@@ -20,7 +20,7 @@ models:
           - unique
           - not_null
 
-  - name: store_sales_data
+  - name: store_data
     description: "Sales performance and related KPIs for stores"
     columns:
       - name: comp_status_desc
