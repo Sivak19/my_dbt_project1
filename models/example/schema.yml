@@ -377,6 +377,10 @@ models:
         data_type: numeric(10,2)
       - name: net_merch_dmd
         data_type: numeric(10,2)
+        meta:
+          metrics:
+            total_sales:
+              type: sum
       - name: net_merch_dmd_ly
         data_type: numeric(10,2)
       - name: net_merch_dmd_ty_ly_pct
