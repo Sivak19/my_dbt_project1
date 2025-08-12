@@ -1,0 +1,1 @@
+select * from NA_Store_data
