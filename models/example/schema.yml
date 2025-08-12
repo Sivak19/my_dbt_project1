@@ -342,32 +342,26 @@ models:
         description: ""
         data_type: numeric
 
+ 
   - name: Store_Flash
-    description: "Daily sales, traffic, and merchandising metrics by store"
+    description: "Store performance and demand metrics"
     columns:
       - name: date
-        description: "Date of record"
+        description: "Date of the record"
         data_type: date
       - name: dist_channel
-        description: "Distribution channel"
         data_type: text
       - name: loc_comp_status
-        description: "Location competition status"
         data_type: text
       - name: loc_cannibalization_flag
-        description: "Flag indicating cannibalization"
         data_type: text
       - name: market
-        description: "Market name"
         data_type: text
       - name: store_number
-        description: "Store number"
-        data_type: text
+        data_type: numeric(10,2)
       - name: store_division
-        description: "Division of the store"
         data_type: text
       - name: store_name
-        description: "Store name"
         data_type: text
       - name: merch_dmd_aov
         data_type: numeric(10,2)
@@ -399,4 +393,123 @@ models:
         data_type: numeric(10,2)
       - name: traffic_in_qty_ly
         data_type: numeric(10,2)
-      # Continue for all MTD, QTD, WTD, YTD variants...
+      - name: merch_dmd_aov_mtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_mtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_mtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_qtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_wtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_ytd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: site_net_sls_fcst_amt_mtd
+        data_type: numeric(10,2)
+      - name: site_net_sls_fcst_amt_qtd
+        data_type: numeric(10,2)
+      - name: site_net_sls_fcst_amt_wtd
+        data_type: numeric(10,2)
+      - name: site_net_sls_fcst_amt_ytd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_mtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_mtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_qtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_qtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_wtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_wtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_ytd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_ytd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_mtd
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_mtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_qtd
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_qtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_wtd
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_wtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_ytd
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_ytd_ly
+        data_type: numeric(10,2)
