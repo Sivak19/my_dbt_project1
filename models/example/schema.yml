@@ -342,7 +342,7 @@ models:
         description: ""
         data_type: numeric
 
-  - name: NA_Store_data
+  - name: Store_Flash
     description: "Daily sales, traffic, and merchandising metrics by store"
     columns:
       - name: date
