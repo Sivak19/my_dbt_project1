@@ -363,20 +363,213 @@ models:
         data_type: text
       - name: store_name
         data_type: text
-      
-     
-metrics:
-  - name: net_merch_dmd
-    label: "sales"  
-    type: simple
-    type_params:
-     measure: net_merch_dmd
-     aggregation: sum
-  - name: net_merch_dmd_ty_ly_pct
-    label: "ly_percent_sales"  
-    type: simple
-    type_params:
-     measure: net_merch_dmd_ty_ly_pct
-     aggregation: sum
-       
-      
+      - name: merch_dmd_aov
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            net_merch_dmd:
+              type: sum
+      - name: net_merch_dmd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            net_merch_dmd_ly:
+              type: sum
+      - name: net_merch_dmd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
+        data_type: numeric(10,2)
+      - name: site_net_sls_fcst_amt
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt:
+              type: sum
+      - name: traffic_in_conv_pct
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_qty
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_mtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_mtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_mtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_qtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_wtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_ytd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: site_net_sls_fcst_amt_mtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_mtd:
+              type: sum
+      - name: site_net_sls_fcst_amt_qtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_qtd:
+              type: sum
+      - name: site_net_sls_fcst_amt_wtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_wtd:
+              type: sum
+      - name: site_net_sls_fcst_amt_ytd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_ytd:
+              type: sum
+      - name: traffic_in_conv_pct_mtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_mtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_qtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_qtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_wtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_wtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_ytd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_ytd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_mtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_mtd:
+              type: sum
+      - name: traffic_in_qty_mtd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_mtd_ly:
+              type: sum
+      - name: traffic_in_qty_qtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_qtd:
+              type: sum
+      - name: traffic_in_qty_qtd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_qtd_ly:
+              type: sum
+      - name: traffic_in_qty_wtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_wtd:
+              type: sum
+      - name: traffic_in_qty_wtd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_wtd_ly:
+              type: sum
+      - name: traffic_in_qty_ytd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_ytd:
+              type: sum
+      - name: traffic_in_qty_ytd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_ytd_ly:
+              type: sum
