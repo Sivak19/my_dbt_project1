@@ -391,7 +391,7 @@ metrics:
     label: "Average AOV MTD"    
     type: average
     type_params:
-      field: merch_dmd_aov_mtd
+      measure: merch_dmd_aov_mtd
 
     meta:
       numberStyle:
@@ -401,7 +401,7 @@ metrics:
     label: "Average AOV QTD"    
     type: average
     type_params:
-      field: merch_dmd_aov_qtd
+      measure: merch_dmd_aov_qtd
 
     meta:
       numberStyle:
@@ -411,7 +411,7 @@ metrics:
     label: "Average AOV WTD"    
     type: average
     type_params:
-      field: merch_dmd_aov_wtd
+      measure: merch_dmd_aov_wtd
 
     meta:
       numberStyle:
@@ -421,7 +421,7 @@ metrics:
     label: "Average AOV YTD"    
     type: average
     type_params:
-      field: merch_dmd_aov_ytd
+      measure: merch_dmd_aov_ytd
 
     meta:
       numberStyle:
@@ -442,7 +442,7 @@ metrics:
     label: "Average UPT MTD"    
     type: average
     type_params:
-      field: merch_dmd_upt_mtd
+      measure: merch_dmd_upt_mtd
 
     meta:
       numberStyle:
@@ -452,7 +452,7 @@ metrics:
     label: "Average UPT QTD"    
     type: average
     type_params:
-      field: merch_dmd_upt_qtd
+      measure: merch_dmd_upt_qtd
 
     meta:
       numberStyle:
@@ -462,7 +462,7 @@ metrics:
     label: "Average UPT WTD"    
     type: average
     type_params:
-      field: merch_dmd_upt_wtd
+      measure: merch_dmd_upt_wtd
 
     meta:
       numberStyle:
@@ -472,7 +472,7 @@ metrics:
     label: "Average UPT YTD"    
     type: average
     type_params:
-      field: merch_dmd_upt_ytd
+      measure: merch_dmd_upt_ytd
 
     meta:
       numberStyle:
@@ -493,7 +493,7 @@ metrics:
     label: "Total Net Merch Demand MTD"    
     type: sum
     type_params:
-      field: net_merch_dmd_mtd
+      measure: net_merch_dmd_mtd
 
     meta:
       numberStyle:
@@ -503,7 +503,7 @@ metrics:
     label: "Total Net Merch Demand QTD"    
     type: sum
     type_params:
-      field: net_merch_dmd_qtd
+      measure: net_merch_dmd_qtd
 
     meta:
       numberStyle:
@@ -513,7 +513,7 @@ metrics:
     label: "Total Net Merch Demand WTD"    
     type: sum
     type_params:
-      field: net_merch_dmd_wtd
+      measure: net_merch_dmd_wtd
 
     meta:
       numberStyle:
@@ -523,7 +523,7 @@ metrics:
     label: "Total Net Merch Demand YTD"    
     type: sum
     type_params:
-      field: net_merch_dmd_ytd
+      measure: net_merch_dmd_ytd
 
     meta:
       numberStyle:
@@ -552,7 +552,7 @@ metrics:
     label: "Total Site Net Sales Forecast MTD"    
     type: sum
     type_params:
-      field: site_net_sls_fcst_amt_mtd
+      measure: site_net_sls_fcst_amt_mtd
 
     meta:
       numberStyle:
@@ -562,7 +562,7 @@ metrics:
     label: "Total Site Net Sales Forecast QTD"    
     type: sum
     type_params:
-      field: site_net_sls_fcst_amt_qtd
+      measure: site_net_sls_fcst_amt_qtd
 
     meta:
       numberStyle:
@@ -572,7 +572,7 @@ metrics:
     label: "Total Site Net Sales Forecast WTD"    
     type: sum
     type_params:
-      field: site_net_sls_fcst_amt_wtd
+      measure: site_net_sls_fcst_amt_wtd
 
     meta:
       numberStyle:
@@ -582,7 +582,7 @@ metrics:
     label: "Total Site Net Sales Forecast YTD"    
     type: sum
     type_params:
-      field: site_net_sls_fcst_amt_ytd
+      measure: site_net_sls_fcst_amt_ytd
 
     meta:
       numberStyle:
@@ -627,7 +627,7 @@ metrics:
     label: "Total Traffic In Qty MTD"    
     type: sum
     type_params:
-      field: traffic_in_qty_mtd
+      measure: traffic_in_qty_mtd
 
     meta:
       numberStyle:
@@ -637,7 +637,7 @@ metrics:
     label: "Total Traffic In Qty QTD"    
     type: sum
     type_params:
-      field: traffic_in_qty_qtd
+      measure: traffic_in_qty_qtd
 
     meta:
       numberStyle:
@@ -647,7 +647,7 @@ metrics:
     label: "Total Traffic In Qty WTD"    
     type: sum
     type_params:
-      field: traffic_in_qty_wtd
+      measure: traffic_in_qty_wtd
 
     meta:
       numberStyle:
@@ -657,9 +657,8 @@ metrics:
     label: "Total Traffic In Qty YTD"    
     type: sum
     type_params:
-      field: traffic_in_qty_ytd
+      measure: traffic_in_qty_ytd
 
     meta:
       numberStyle:
         format: "#,##0"
-        
