@@ -367,10 +367,10 @@ models:
      
 metrics:
   - name: net_merch_dmd
-    lable: "sales"  
+    label: "sales"  
     type: sum
   - name: net_merch_dmd_ty_ly_pct
-    lable: "ly_percent_sales"  
+    label: "ly_percent_sales"  
     type: avg
        
       
