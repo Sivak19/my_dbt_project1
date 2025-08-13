@@ -344,7 +344,7 @@ models:
 
  
   - name: Store_Flash
-        description: "Sales performance data with dimensions and metrics"
+
     columns:
 
       # -------------------
@@ -390,7 +390,7 @@ metrics:
   - name: avg_merch_dmd_aov_mtd
     label: "Average AOV MTD"    
     type: average
-    
+
     meta:
       numberStyle:
         format: "$#,##0.00"
