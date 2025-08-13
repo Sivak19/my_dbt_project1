@@ -375,13 +375,11 @@ models:
         data_type: numeric(10,2)
       - name: merch_dmd_upt_ty_ly_pct
         data_type: numeric(10,2)
-    
-        meta:
+      - meta:
           metrics:
             net_merch_dmd:
-              type: sum
-      
-        meta:
+              type: sum    
+      -  meta:
           metrics:
             net_merch_dmd_ly:
               type: sum
@@ -389,8 +387,7 @@ models:
         data_type: numeric(10,2)
       - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
         data_type: numeric(10,2)
-      
-        meta:
+      -  meta:
           metrics:
             site_net_sls_fcst_amt:
               type: sum
@@ -481,24 +478,20 @@ models:
       - name: net_merch_dmd_ytd_ly
         data_type: numeric(10,2)
       - name: net_merch_dmd_ytd_ty_ly_pct
-        data_type: numeric(10,2)
-      
-        meta:
+        data_type: numeric(10,2)      
+      - meta:
           metrics:
             site_net_sls_fcst_amt_mtd:
-              type: sum
-      
-        meta:
+              type: sum      
+      - meta:
           metrics:
             site_net_sls_fcst_amt_qtd:
-              type: sum
-      
-        meta:
+              type: sum      
+      - meta:
           metrics:
             site_net_sls_fcst_amt_wtd:
-              type: sum
-      
-        meta:
+              type: sum      
+      - meta:
           metrics:
             site_net_sls_fcst_amt_ytd:
               type: sum
@@ -517,44 +510,36 @@ models:
       - name: traffic_in_conv_pct_ytd
         data_type: numeric(10,2)
       - name: traffic_in_conv_pct_ytd_ly
-        data_type: numeric(10,2)
-      
-        meta:
+        data_type: numeric(10,2)      
+      - meta:
           metrics:
             traffic_in_qty_mtd:
-              type: sum
-      
-        meta:
+              type: sum      
+      - meta:
           metrics:
             traffic_in_qty_mtd_ly:
-              type: sum
-    
-        meta:
+              type: sum    
+      - meta:
           metrics:
             traffic_in_qty_qtd:
-              type: sum
-      
-        meta:
+              type: sum      
+      - meta:
           metrics:
             traffic_in_qty_qtd_ly:
-              type: sum
-     
-        meta:
+              type: sum     
+      - meta:
           metrics:
             traffic_in_qty_wtd:
-              type: sum
-    
-        meta:
+              type: sum    
+      - meta:
           metrics:
             traffic_in_qty_wtd_ly:
-              type: sum
-      
-        meta:
+              type: sum      
+      - meta:
           metrics:
             traffic_in_qty_ytd:
-              type: sum
-      
-        meta:
+              type: sum      
+      - meta:
           metrics:
             traffic_in_qty_ytd_ly:
               type: sum
