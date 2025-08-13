@@ -343,45 +343,25 @@ models:
         data_type: numeric
 
  
-  - name: Store_Flash
-
+      - name: Store_Flash
+    description: "Store flash sales and KPI data"
     columns:
-
-  # -------------------
-  # DIMENSIONS
-  # -------------------
-  - name: date
-    description: "Transaction date"
-    type: date
-
-  - name: dist_channel
-    description: "Distribution channel"
-    type: string
-
-  - name: loc_comp_status
-    description: "Location competition status"
-    type: string
-
-  - name: loc_cannibalization_flag
-    description: "Location cannibalization flag"
-    type: string
-
-  - name: market
-    description: "Market name"
-    type: string
-
-  - name: store_number
-    description: "Store number"
-    type: number
-
-  - name: store_division
-    description: "Store division"
-    type: string
-
-  - name: store_name
-    description: "Store name"
-    type: string
-
+      - name: date
+        description: "Transaction date"
+      - name: dist_channel
+        description: "Distribution channel"
+      - name: loc_comp_status
+        description: "Location competition status"
+      - name: loc_cannibalization_flag
+        description: "Location cannibalization flag"
+      - name: market
+        description: "Market name"
+      - name: store_number
+        description: "Store number"
+      - name: store_division
+        description: "Store division"
+      - name: store_name
+        description: "Store name"
 
 metrics:
   # ============================
