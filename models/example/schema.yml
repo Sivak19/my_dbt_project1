@@ -343,7 +343,7 @@ models:
         data_type: numeric
 
  
-      - name: Store_Flash
+  - name: Store_Flash
     description: "Store flash sales and KPI data"
     columns:
       - name: date
