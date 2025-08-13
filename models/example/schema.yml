@@ -373,6 +373,8 @@ models:
       - name: store_number
         description: "Store number"
         type: number
+        type_params:
+          measure: store_number
 
       - name: store_division
         description: "Store division"
@@ -430,6 +432,8 @@ metrics:
   - name: merch_dmd_aov_ty_ly_pct
     label: "AOV % Change TY vs LY"    
     type: number
+    type_params:
+      measure: merch_dmd_aov_ty_ly_pct
 
     meta:
       numberStyle:
@@ -481,6 +485,8 @@ metrics:
   - name: merch_dmd_upt_ty_ly_pct
     label: "UPT % Change TY vs LY"    
     type: number
+    type_params:
+      measure: merch_dmd_upt_ty_ly_pct
 
     meta:
       numberStyle:
@@ -532,6 +538,8 @@ metrics:
   - name: net_merch_dmd_ty_ly_pct
     label: "% Change Net Merch Demand TY vs LY"    
     type: number
+    type_params:
+      measure: net_merch_dmd_ty_ly_pct
 
     meta:
       numberStyle:
@@ -540,6 +548,8 @@ metrics:
   - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
     label: "Net Merch Demand vs Site Sales Forecast %"    
     type: number
+    type_params:
+      measure: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
 
     meta:
       numberStyle:
@@ -594,6 +604,8 @@ metrics:
   - name: avg_traffic_in_conv_pct_mtd
     label: "Traffic In Conversion % MTD"    
     type: number
+    type_params:
+      measure: traffic_in_conv_pct_mtd
 
     meta:
       numberStyle:
@@ -602,6 +614,8 @@ metrics:
   - name: avg_traffic_in_conv_pct_qtd
     label: "Traffic In Conversion % QTD"    
     type: number
+    type_params:
+      measure: traffic_in_conv_pct_qtd
 
     meta:
       numberStyle:
@@ -610,6 +624,8 @@ metrics:
   - name: avg_traffic_in_conv_pct_wtd
     label: "Traffic In Conversion % WTD"    
     type: number
+    type_params:
+      measure: traffic_in_conv_pct_wtd
 
     meta:
       numberStyle:
@@ -618,6 +634,8 @@ metrics:
   - name: avg_traffic_in_conv_pct_ytd
     label: "Traffic In Conversion % YTD"    
     type: number
+    type_params:
+      measure: traffic_in_conv_pct_ytd
 
     meta:
       numberStyle:
