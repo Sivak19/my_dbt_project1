@@ -389,7 +389,7 @@ metrics:
   # ============================
   - name: avg_merch_dmd_aov_mtd
     label: "Average AOV MTD"
-    model: store_kpis
+    
     type: average
     sql: ${TABLE}.merch_dmd_aov_mtd
     meta:
@@ -398,7 +398,7 @@ metrics:
 
   - name: avg_merch_dmd_aov_qtd
     label: "Average AOV QTD"
-    model: store_kpis
+    
     type: average
     sql: ${TABLE}.merch_dmd_aov_qtd
     meta:
@@ -407,7 +407,7 @@ metrics:
 
   - name: avg_merch_dmd_aov_wtd
     label: "Average AOV WTD"
-    model: store_kpis
+    
     type: average
     sql: ${TABLE}.merch_dmd_aov_wtd
     meta:
@@ -416,7 +416,7 @@ metrics:
 
   - name: avg_merch_dmd_aov_ytd
     label: "Average AOV YTD"
-    model: store_kpis
+    
     type: average
     sql: ${TABLE}.merch_dmd_aov_ytd
     meta:
@@ -425,7 +425,7 @@ metrics:
 
   - name: merch_dmd_aov_ty_ly_pct
     label: "AOV % Change TY vs LY"
-    model: store_kpis
+    
     type: number
     sql: ${TABLE}.merch_dmd_aov_ty_ly_pct
     meta:
@@ -437,7 +437,7 @@ metrics:
   # ============================
   - name: avg_merch_dmd_upt_mtd
     label: "Average UPT MTD"
-    model: store_kpis
+    
     type: average
     sql: ${TABLE}.merch_dmd_upt_mtd
     meta:
@@ -446,7 +446,7 @@ metrics:
 
   - name: avg_merch_dmd_upt_qtd
     label: "Average UPT QTD"
-    model: store_kpis
+    
     type: average
     sql: ${TABLE}.merch_dmd_upt_qtd
     meta:
@@ -455,7 +455,7 @@ metrics:
 
   - name: avg_merch_dmd_upt_wtd
     label: "Average UPT WTD"
-    model: store_kpis
+    
     type: average
     sql: ${TABLE}.merch_dmd_upt_wtd
     meta:
@@ -464,7 +464,7 @@ metrics:
 
   - name: avg_merch_dmd_upt_ytd
     label: "Average UPT YTD"
-    model: store_kpis
+    
     type: average
     sql: ${TABLE}.merch_dmd_upt_ytd
     meta:
@@ -473,7 +473,7 @@ metrics:
 
   - name: merch_dmd_upt_ty_ly_pct
     label: "UPT % Change TY vs LY"
-    model: store_kpis
+    
     type: number
     sql: ${TABLE}.merch_dmd_upt_ty_ly_pct
     meta:
@@ -485,7 +485,7 @@ metrics:
   # ===================================
   - name: total_net_merch_dmd_mtd
     label: "Total Net Merch Demand MTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.net_merch_dmd_mtd
     meta:
@@ -494,7 +494,7 @@ metrics:
 
   - name: total_net_merch_dmd_qtd
     label: "Total Net Merch Demand QTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.net_merch_dmd_qtd
     meta:
@@ -503,7 +503,7 @@ metrics:
 
   - name: total_net_merch_dmd_wtd
     label: "Total Net Merch Demand WTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.net_merch_dmd_wtd
     meta:
@@ -512,7 +512,7 @@ metrics:
 
   - name: total_net_merch_dmd_ytd
     label: "Total Net Merch Demand YTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.net_merch_dmd_ytd
     meta:
@@ -521,7 +521,7 @@ metrics:
 
   - name: net_merch_dmd_ty_ly_pct
     label: "% Change Net Merch Demand TY vs LY"
-    model: store_kpis
+    
     type: number
     sql: ${TABLE}.net_merch_dmd_ty_ly_pct
     meta:
@@ -530,7 +530,7 @@ metrics:
 
   - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
     label: "Net Merch Demand vs Site Sales Forecast %"
-    model: store_kpis
+    
     type: number
     sql: ${TABLE}.net_merch_dmd_vs_site_net_sls_fcst_amt_pct
     meta:
@@ -542,7 +542,7 @@ metrics:
   # ===================================
   - name: total_site_net_sls_fcst_amt_mtd
     label: "Total Site Net Sales Forecast MTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.site_net_sls_fcst_amt_mtd
     meta:
@@ -551,7 +551,7 @@ metrics:
 
   - name: total_site_net_sls_fcst_amt_qtd
     label: "Total Site Net Sales Forecast QTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.site_net_sls_fcst_amt_qtd
     meta:
@@ -560,7 +560,7 @@ metrics:
 
   - name: total_site_net_sls_fcst_amt_wtd
     label: "Total Site Net Sales Forecast WTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.site_net_sls_fcst_amt_wtd
     meta:
@@ -569,7 +569,7 @@ metrics:
 
   - name: total_site_net_sls_fcst_amt_ytd
     label: "Total Site Net Sales Forecast YTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.site_net_sls_fcst_amt_ytd
     meta:
@@ -581,7 +581,7 @@ metrics:
   # ============================
   - name: avg_traffic_in_conv_pct_mtd
     label: "Traffic In Conversion % MTD"
-    model: store_kpis
+    
     type: number
     sql: ${TABLE}.traffic_in_conv_pct_mtd
     meta:
@@ -590,7 +590,7 @@ metrics:
 
   - name: avg_traffic_in_conv_pct_qtd
     label: "Traffic In Conversion % QTD"
-    model: store_kpis
+    
     type: number
     sql: ${TABLE}.traffic_in_conv_pct_qtd
     meta:
@@ -599,7 +599,7 @@ metrics:
 
   - name: avg_traffic_in_conv_pct_wtd
     label: "Traffic In Conversion % WTD"
-    model: store_kpis
+    
     type: number
     sql: ${TABLE}.traffic_in_conv_pct_wtd
     meta:
@@ -608,7 +608,7 @@ metrics:
 
   - name: avg_traffic_in_conv_pct_ytd
     label: "Traffic In Conversion % YTD"
-    model: store_kpis
+    
     type: number
     sql: ${TABLE}.traffic_in_conv_pct_ytd
     meta:
@@ -617,7 +617,7 @@ metrics:
 
   - name: total_traffic_in_qty_mtd
     label: "Total Traffic In Qty MTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.traffic_in_qty_mtd
     meta:
@@ -626,7 +626,7 @@ metrics:
 
   - name: total_traffic_in_qty_qtd
     label: "Total Traffic In Qty QTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.traffic_in_qty_qtd
     meta:
@@ -635,7 +635,7 @@ metrics:
 
   - name: total_traffic_in_qty_wtd
     label: "Total Traffic In Qty WTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.traffic_in_qty_wtd
     meta:
@@ -644,7 +644,7 @@ metrics:
 
   - name: total_traffic_in_qty_ytd
     label: "Total Traffic In Qty YTD"
-    model: store_kpis
+    
     type: sum
     sql: ${TABLE}.traffic_in_qty_ytd
     meta:
