@@ -344,275 +344,232 @@ models:
 
  
   - name: Store_Flash
-    description: "Store flash sales and KPI data"
+    description: "Store performance and demand metrics"
     columns:
       - name: date
-        description: "Transaction date"
+        description: "Date of the record"
+        data_type: date
       - name: dist_channel
-        description: "Distribution channel"
+        data_type: text
       - name: loc_comp_status
-        description: "Location competition status"
+        data_type: text
       - name: loc_cannibalization_flag
-        description: "Location cannibalization flag"
+        data_type: text
       - name: market
-        description: "Market name"
+        data_type: text
       - name: store_number
-        description: "Store number"
+        data_type: numeric(10,2)
       - name: store_division
-        description: "Store division"
+        data_type: text
       - name: store_name
-        description: "Store name"
-
-metrics:
-  - name: avg_merch_dmd_aov_mtd
-    label: "Average AOV MTD"
-    type: sum
-    type_params:
-      measure: merch_dmd_aov_mtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: avg_merch_dmd_aov_qtd
-    label: "Average AOV QTD"
-    type: sum
-    type_params:
-      measure: merch_dmd_aov_qtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: avg_merch_dmd_aov_wtd
-    label: "Average AOV WTD"
-    type: sum
-    type_params:
-      measure: merch_dmd_aov_wtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: avg_merch_dmd_aov_ytd
-    label: "Average AOV YTD"
-    type: sum
-    type_params:
-      measure: merch_dmd_aov_ytd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: merch_dmd_aov_ty_ly_pct
-    label: "AOV % Change TY vs LY"
-    type: sum
-    type_params:
-      measure: merch_dmd_aov_ty_ly_pct
-    meta:
-      numberStyle:
-        format: "0.00%"
-
-  - name: avg_merch_dmd_upt_mtd
-    label: "Average UPT MTD"
-    type: sum
-    type_params:
-      measure: merch_dmd_upt_mtd
-    meta:
-      numberStyle:
-        format: "0.00"
-
-  - name: avg_merch_dmd_upt_qtd
-    label: "Average UPT QTD"
-    type: sum
-    type_params:
-      measure: merch_dmd_upt_qtd
-    meta:
-      numberStyle:
-        format: "0.00"
-
-  - name: avg_merch_dmd_upt_wtd
-    label: "Average UPT WTD"
-    type: sum
-    type_params:
-      measure: merch_dmd_upt_wtd
-    meta:
-      numberStyle:
-        format: "0.00"
-
-  - name: avg_merch_dmd_upt_ytd
-    label: "Average UPT YTD"
-    type: sum
-    type_params:
-      measure: merch_dmd_upt_ytd
-    meta:
-      numberStyle:
-        format: "0.00"
-
-  - name: merch_dmd_upt_ty_ly_pct
-    label: "UPT % Change TY vs LY"
-    type: sum
-    type_params:
-      measure: merch_dmd_upt_ty_ly_pct
-    meta:
-      numberStyle:
-        format: "0.00%"
-
-
-  - name: total_net_merch_dmd_mtd
-    label: "Total Net Merch Demand MTD"
-    type: sum
-    type_params:
-      measure: net_merch_dmd_mtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: total_net_merch_dmd_qtd
-    label: "Total Net Merch Demand QTD"
-    type: sum
-    type_params:
-      measure: net_merch_dmd_qtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: total_net_merch_dmd_wtd
-    label: "Total Net Merch Demand WTD"
-    type: sum
-    type_params:
-      measure: net_merch_dmd_wtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: total_net_merch_dmd_ytd
-    label: "Total Net Merch Demand YTD"
-    type: sum
-    type_params:
-      measure: net_merch_dmd_ytd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: net_merch_dmd_ty_ly_pct
-    label: "% Change Net Merch Demand TY vs LY"
-    type: sum
-    type_params:
-      measure: net_merch_dmd_ty_ly_pct
-    meta:
-      numberStyle:
-        format: "0.00%"
-
-  - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
-    label: "Net Merch Demand vs Site Sales Forecast %"
-    type: sum
-    type_params:
-      measure: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
-    meta:
-      numberStyle:
-        format: "0.00%"
-
-  - name: total_site_net_sls_fcst_amt_mtd
-    label: "Total Site Net Sales Forecast MTD"
-    type: sum
-    type_params:
-      measure: site_net_sls_fcst_amt_mtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: total_site_net_sls_fcst_amt_qtd
-    label: "Total Site Net Sales Forecast QTD"
-    type: sum
-    type_params:
-      measure: site_net_sls_fcst_amt_qtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: total_site_net_sls_fcst_amt_wtd
-    label: "Total Site Net Sales Forecast WTD"
-    type: sum
-    type_params:
-      measure: site_net_sls_fcst_amt_wtd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: total_site_net_sls_fcst_amt_ytd
-    label: "Total Site Net Sales Forecast YTD"
-    type: sum
-    type_params:
-      measure: site_net_sls_fcst_amt_ytd
-    meta:
-      numberStyle:
-        format: "$#,##0.00"
-
-  - name: avg_traffic_in_conv_pct_mtd
-    label: "Traffic In Conversion % MTD"
-    type: sum
-    type_params:
-      measure: traffic_in_conv_pct_mtd
-    meta:
-      numberStyle:
-        format: "0.00%"
-
-  - name: avg_traffic_in_conv_pct_qtd
-    label: "Traffic In Conversion % QTD"
-    type: sum
-    type_params:
-      measure: traffic_in_conv_pct_qtd
-    meta:
-      numberStyle:
-        format: "0.00%"
-
-  - name: avg_traffic_in_conv_pct_wtd
-    label: "Traffic In Conversion % WTD"
-    type: sum
-    type_params:
-      measure: traffic_in_conv_pct_wtd
-    meta:
-      numberStyle:
-        format: "0.00%"
-
-  - name: avg_traffic_in_conv_pct_ytd
-    label: "Traffic In Conversion % YTD"
-    type: sum
-    type_params:
-      measure: traffic_in_conv_pct_ytd
-    meta:
-      numberStyle:
-        format: "0.00%"
-
-  - name: total_traffic_in_qty_mtd
-    label: "Total Traffic In Qty MTD"
-    type: sum
-    type_params:
-      measure: traffic_in_qty_mtd
-    meta:
-      numberStyle:
-        format: "#,##0"
-
-  - name: total_traffic_in_qty_qtd
-    label: "Total Traffic In Qty QTD"
-    type: sum
-    type_params:
-      measure: traffic_in_qty_qtd
-    meta:
-      numberStyle:
-        format: "#,##0"
-
-  - name: total_traffic_in_qty_wtd
-    label: "Total Traffic In Qty WTD"
-    type: sum
-    type_params:
-      measure: traffic_in_qty_wtd
-    meta:
-      numberStyle:
-        format: "#,##0"
-
-  - name: total_traffic_in_qty_ytd
-    label: "Total Traffic In Qty YTD"
-    type: sum
-    type_params:
-      measure: traffic_in_qty_ytd
-    meta:
-      numberStyle:
-        format: "#,##0"
+        data_type: text
+      - name: merch_dmd_aov
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            net_merch_dmd:
+              type: sum
+      - name: net_merch_dmd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            net_merch_dmd_ly:
+              type: sum
+      - name: net_merch_dmd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
+        data_type: numeric(10,2)
+      - name: site_net_sls_fcst_amt
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt:
+              type: sum
+      - name: traffic_in_conv_pct
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_qty
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_mtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_mtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_aov_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd_ly
+        data_type: numeric(10,2)
+      - name: merch_dmd_upt_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_mtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_qtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_mtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_qtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_wtd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_ytd_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_wtd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd_ly
+        data_type: numeric(10,2)
+      - name: net_merch_dmd_ytd_ty_ly_pct
+        data_type: numeric(10,2)
+      - name: site_net_sls_fcst_amt_mtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_mtd:
+              type: sum
+      - name: site_net_sls_fcst_amt_qtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_qtd:
+              type: sum
+      - name: site_net_sls_fcst_amt_wtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_wtd:
+              type: sum
+      - name: site_net_sls_fcst_amt_ytd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_ytd:
+              type: sum
+      - name: traffic_in_conv_pct_mtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_mtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_qtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_qtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_wtd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_wtd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_ytd
+        data_type: numeric(10,2)
+      - name: traffic_in_conv_pct_ytd_ly
+        data_type: numeric(10,2)
+      - name: traffic_in_qty_mtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_mtd:
+              type: sum
+      - name: traffic_in_qty_mtd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_mtd_ly:
+              type: sum
+      - name: traffic_in_qty_qtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_qtd:
+              type: sum
+      - name: traffic_in_qty_qtd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_qtd_ly:
+              type: sum
+      - name: traffic_in_qty_wtd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_wtd:
+              type: sum
+      - name: traffic_in_qty_wtd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_wtd_ly:
+              type: sum
+      - name: traffic_in_qty_ytd
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_ytd:
+              type: sum
+      - name: traffic_in_qty_ytd_ly
+        data_type: numeric(10,2)
+        meta:
+          metrics:
+            traffic_in_qty_ytd_ly:
+              type: sum
