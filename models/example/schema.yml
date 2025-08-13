@@ -347,42 +347,40 @@ models:
 
     columns:
 
-      # -------------------
-      # DIMENSIONS
-      # -------------------
-      - name: date
-        description: "Transaction date"
-        type: date
+  # -------------------
+  # DIMENSIONS
+  # -------------------
+  - name: date
+    description: "Transaction date"
+    type: date
 
-      - name: dist_channel
-        description: "Distribution channel"
-        type: string
+  - name: dist_channel
+    description: "Distribution channel"
+    type: string
 
-      - name: loc_comp_status
-        description: "Location competition status"
-        type: string
+  - name: loc_comp_status
+    description: "Location competition status"
+    type: string
 
-      - name: loc_cannibalization_flag
-        description: "Location cannibalization flag"
-        type: string
+  - name: loc_cannibalization_flag
+    description: "Location cannibalization flag"
+    type: string
 
-      - name: market
-        description: "Market name"
-        type: string
+  - name: market
+    description: "Market name"
+    type: string
 
-      - name: store_number
-        description: "Store number"
-        type: number
-        type_params:
-          measure: store_number
+  - name: store_number
+    description: "Store number"
+    type: number
 
-      - name: store_division
-        description: "Store division"
-        type: string
+  - name: store_division
+    description: "Store division"
+    type: string
 
-      - name: store_name
-        description: "Store name"
-        type: string
+  - name: store_name
+    description: "Store name"
+    type: string
 
 
 metrics:
@@ -390,51 +388,46 @@ metrics:
   # ====== AOV Metrics =========
   # ============================
   - name: avg_merch_dmd_aov_mtd
-    label: "Average AOV MTD"    
+    label: "Average AOV MTD"
     type: average
     type_params:
       measure: merch_dmd_aov_mtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: avg_merch_dmd_aov_qtd
-    label: "Average AOV QTD"    
+    label: "Average AOV QTD"
     type: average
     type_params:
       measure: merch_dmd_aov_qtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: avg_merch_dmd_aov_wtd
-    label: "Average AOV WTD"    
+    label: "Average AOV WTD"
     type: average
     type_params:
       measure: merch_dmd_aov_wtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: avg_merch_dmd_aov_ytd
-    label: "Average AOV YTD"    
+    label: "Average AOV YTD"
     type: average
     type_params:
       measure: merch_dmd_aov_ytd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: merch_dmd_aov_ty_ly_pct
-    label: "AOV % Change TY vs LY"    
-    type: number
+    label: "AOV % Change TY vs LY"
+    type: average
     type_params:
       measure: merch_dmd_aov_ty_ly_pct
-
     meta:
       numberStyle:
         format: "0.00%"
@@ -443,51 +436,46 @@ metrics:
   # ====== UPT Metrics =========
   # ============================
   - name: avg_merch_dmd_upt_mtd
-    label: "Average UPT MTD"    
+    label: "Average UPT MTD"
     type: average
     type_params:
       measure: merch_dmd_upt_mtd
-
     meta:
       numberStyle:
         format: "0.00"
 
   - name: avg_merch_dmd_upt_qtd
-    label: "Average UPT QTD"    
+    label: "Average UPT QTD"
     type: average
     type_params:
       measure: merch_dmd_upt_qtd
-
     meta:
       numberStyle:
         format: "0.00"
 
   - name: avg_merch_dmd_upt_wtd
-    label: "Average UPT WTD"    
+    label: "Average UPT WTD"
     type: average
     type_params:
       measure: merch_dmd_upt_wtd
-
     meta:
       numberStyle:
         format: "0.00"
 
   - name: avg_merch_dmd_upt_ytd
-    label: "Average UPT YTD"    
+    label: "Average UPT YTD"
     type: average
     type_params:
       measure: merch_dmd_upt_ytd
-
     meta:
       numberStyle:
         format: "0.00"
 
   - name: merch_dmd_upt_ty_ly_pct
-    label: "UPT % Change TY vs LY"    
-    type: number
+    label: "UPT % Change TY vs LY"
+    type: average
     type_params:
       measure: merch_dmd_upt_ty_ly_pct
-
     meta:
       numberStyle:
         format: "0.00%"
@@ -496,61 +484,55 @@ metrics:
   # === Net Merchandise Demand =======
   # ===================================
   - name: total_net_merch_dmd_mtd
-    label: "Total Net Merch Demand MTD"    
+    label: "Total Net Merch Demand MTD"
     type: sum
     type_params:
       measure: net_merch_dmd_mtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: total_net_merch_dmd_qtd
-    label: "Total Net Merch Demand QTD"    
+    label: "Total Net Merch Demand QTD"
     type: sum
     type_params:
       measure: net_merch_dmd_qtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: total_net_merch_dmd_wtd
-    label: "Total Net Merch Demand WTD"    
+    label: "Total Net Merch Demand WTD"
     type: sum
     type_params:
       measure: net_merch_dmd_wtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: total_net_merch_dmd_ytd
-    label: "Total Net Merch Demand YTD"    
+    label: "Total Net Merch Demand YTD"
     type: sum
     type_params:
       measure: net_merch_dmd_ytd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: net_merch_dmd_ty_ly_pct
-    label: "% Change Net Merch Demand TY vs LY"    
-    type: number
+    label: "% Change Net Merch Demand TY vs LY"
+    type: average
     type_params:
       measure: net_merch_dmd_ty_ly_pct
-
     meta:
       numberStyle:
         format: "0.00%"
 
   - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
-    label: "Net Merch Demand vs Site Sales Forecast %"    
-    type: number
+    label: "Net Merch Demand vs Site Sales Forecast %"
+    type: average
     type_params:
       measure: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
-
     meta:
       numberStyle:
         format: "0.00%"
@@ -559,41 +541,37 @@ metrics:
   # === Site Net Sales Forecast =======
   # ===================================
   - name: total_site_net_sls_fcst_amt_mtd
-    label: "Total Site Net Sales Forecast MTD"    
+    label: "Total Site Net Sales Forecast MTD"
     type: sum
     type_params:
       measure: site_net_sls_fcst_amt_mtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: total_site_net_sls_fcst_amt_qtd
-    label: "Total Site Net Sales Forecast QTD"    
+    label: "Total Site Net Sales Forecast QTD"
     type: sum
     type_params:
       measure: site_net_sls_fcst_amt_qtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: total_site_net_sls_fcst_amt_wtd
-    label: "Total Site Net Sales Forecast WTD"    
+    label: "Total Site Net Sales Forecast WTD"
     type: sum
     type_params:
       measure: site_net_sls_fcst_amt_wtd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
 
   - name: total_site_net_sls_fcst_amt_ytd
-    label: "Total Site Net Sales Forecast YTD"    
+    label: "Total Site Net Sales Forecast YTD"
     type: sum
     type_params:
       measure: site_net_sls_fcst_amt_ytd
-
     meta:
       numberStyle:
         format: "$#,##0.00"
@@ -602,81 +580,73 @@ metrics:
   # ====== Traffic KPIs ========
   # ============================
   - name: avg_traffic_in_conv_pct_mtd
-    label: "Traffic In Conversion % MTD"    
-    type: number
+    label: "Traffic In Conversion % MTD"
+    type: average
     type_params:
       measure: traffic_in_conv_pct_mtd
-
     meta:
       numberStyle:
         format: "0.00%"
 
   - name: avg_traffic_in_conv_pct_qtd
-    label: "Traffic In Conversion % QTD"    
-    type: number
+    label: "Traffic In Conversion % QTD"
+    type: average
     type_params:
       measure: traffic_in_conv_pct_qtd
-
     meta:
       numberStyle:
         format: "0.00%"
 
   - name: avg_traffic_in_conv_pct_wtd
-    label: "Traffic In Conversion % WTD"    
-    type: number
+    label: "Traffic In Conversion % WTD"
+    type: average
     type_params:
       measure: traffic_in_conv_pct_wtd
-
     meta:
       numberStyle:
         format: "0.00%"
 
   - name: avg_traffic_in_conv_pct_ytd
-    label: "Traffic In Conversion % YTD"    
-    type: number
+    label: "Traffic In Conversion % YTD"
+    type: average
     type_params:
       measure: traffic_in_conv_pct_ytd
-
     meta:
       numberStyle:
         format: "0.00%"
 
   - name: total_traffic_in_qty_mtd
-    label: "Total Traffic In Qty MTD"    
+    label: "Total Traffic In Qty MTD"
     type: sum
     type_params:
       measure: traffic_in_qty_mtd
-
     meta:
       numberStyle:
         format: "#,##0"
 
   - name: total_traffic_in_qty_qtd
-    label: "Total Traffic In Qty QTD"    
+    label: "Total Traffic In Qty QTD"
     type: sum
     type_params:
       measure: traffic_in_qty_qtd
-
     meta:
       numberStyle:
         format: "#,##0"
 
   - name: total_traffic_in_qty_wtd
-    label: "Total Traffic In Qty WTD"    
+    label: "Total Traffic In Qty WTD"
     type: sum
     type_params:
       measure: traffic_in_qty_wtd
-
     meta:
       numberStyle:
         format: "#,##0"
 
   - name: total_traffic_in_qty_ytd
-    label: "Total Traffic In Qty YTD"    
+    label: "Total Traffic In Qty YTD"
     type: sum
     type_params:
       measure: traffic_in_qty_ytd
-
     meta:
       numberStyle:
         format: "#,##0"
