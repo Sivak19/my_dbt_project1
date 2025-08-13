@@ -369,8 +369,10 @@ metrics:
   - name: net_merch_dmd
     label: "sales"  
     type: sum
+    type_params:
   - name: net_merch_dmd_ty_ly_pct
     label: "ly_percent_sales"  
     type: avg
+    type_params:
        
       
