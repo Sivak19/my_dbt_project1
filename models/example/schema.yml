@@ -364,190 +364,558 @@ models:
         description: ''
       - name: merch_dmd_aov
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov1:
+              type: sum
       - name: merch_dmd_aov_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_ly1:
+              type: sum
       - name: merch_dmd_aov_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_ty_ly_pct1:
+              type: sum
       - name: merch_dmd_upt
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt1:
+              type: sum
       - name: merch_dmd_upt_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_ly1:
+              type: sum
       - name: merch_dmd_upt_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_ty_ly_pct1:
+              type: sum
       - name: net_merch_dmd
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd1:
+              type: sum
       - name: net_merch_dmd_ly
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_ly:
+              type: sum
       - name: net_merch_dmd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_ty_ly_pct1:
+              type: sum
       - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_vs_site_net_sls_fcst_amt_pct1:
+              type: sum
       - name: site_net_sls_fcst_amt
         description: ''
+        meta:
+          metrics:
+            site_net_sls_fcst_amt1:
+              type: sum
       - name: traffic_in_conv_pct
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct1:
+              type: sum
       - name: traffic_in_conv_pct_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov1:
+              type: sum
       - name: traffic_in_qty
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_ly1:
+              type: sum
       - name: traffic_in_qty_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_qty_ly1:
+              type: sum
       - name: merch_dmd_aov_mtd
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_mtd1:
+              type: sum
       - name: merch_dmd_aov_mtd_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_mtd_ly1:
+              type: sum
       - name: merch_dmd_aov_mtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_mtd_ty_ly_pct1:
+              type: sum
       - name: merch_dmd_aov_qtd
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_qtd1:
+              type: sum
       - name: merch_dmd_aov_qtd_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_qtd_ly1:
+              type: sum
       - name: merch_dmd_aov_qtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_qtd_ty_ly_pct1:
+              type: sum
       - name: merch_dmd_aov_wtd
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_wtd1:
+              type: sum
       - name: merch_dmd_aov_wtd_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_wtd_ly1:
+              type: sum
       - name: merch_dmd_aov_wtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_wtd_ty_ly_pct1:
+              type: sum
       - name: merch_dmd_aov_ytd
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_ytd1:
+              type: sum
       - name: merch_dmd_aov_ytd_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_ytd_ly1:
+              type: sum
       - name: merch_dmd_aov_ytd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_aov_ytd_ty_ly_pct1:
+              type: sum
       - name: merch_dmd_upt_mtd
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_mtd1:
+              type: sum
       - name: merch_dmd_upt_mtd_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_mtd_ly1:
+              type: sum
       - name: merch_dmd_upt_mtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_mtd_ty_ly_pct1:
+              type: sum
       - name: merch_dmd_upt_qtd
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_qtd1:
+              type: sum
       - name: merch_dmd_upt_qtd_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_qtd_ly1:
+              type: sum
       - name: merch_dmd_upt_qtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_qtd_ty_ly_pct:
+              type: sum
       - name: merch_dmd_upt_wtd
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_wtd1:
+              type: sum
       - name: merch_dmd_upt_wtd_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_wtd_ly1:
+              type: sum
       - name: merch_dmd_upt_wtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_wtd_ty_ly_pct1:
+              type: sum
       - name: merch_dmd_upt_ytd
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_ytd1:
+              type: sum
       - name: merch_dmd_upt_ytd_ly
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_ytd_ly1:
+              type: sum
       - name: merch_dmd_upt_ytd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            merch_dmd_upt_ytd_ty_ly_pct1:
+              type: sum
       - name: net_merch_dmd_mtd
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_mtd1:
+              type: sum
       - name: net_merch_dmd_mtd_ly
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_mtd_ly1:
+              type: sum
       - name: net_merch_dmd_mtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_mtd_ty_ly_pct1:
+              type: sum
       - name: net_merch_dmd_qtd
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_qtd1:
+              type: sum
       - name: net_merch_dmd_qtd_ly
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_qtd_ly1:
+              type: sum
       - name: net_merch_dmd_qtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_qtd_ty_ly_pct1:
+              type: sum
       - name: net_merch_dmd_vs_site_net_sls_fcst_amt_mtd_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_vs_site_net_sls_fcst_amt_mtd_pct1:
+              type: sum
       - name: net_merch_dmd_vs_site_net_sls_fcst_amt_qtd_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_vs_site_net_sls_fcst_amt_qtd_pct1:
+              type: sum
       - name: net_merch_dmd_vs_site_net_sls_fcst_amt_wtd_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_vs_site_net_sls_fcst_amt_wtd_pct1:
+              type: sum
       - name: net_merch_dmd_vs_site_net_sls_fcst_amt_ytd_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_vs_site_net_sls_fcst_amt_ytd_pct1:
+              type: sum
       - name: net_merch_dmd_wtd
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_wtd1:
+              type: sum
       - name: net_merch_dmd_wtd_ly
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_wtd_ly1:
+              type: sum
       - name: net_merch_dmd_wtd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_wtd_ty_ly_pct1:
+              type: sum
       - name: net_merch_dmd_ytd
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_ytd1:
+              type: sum
       - name: net_merch_dmd_ytd_ly
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_ytd_ly1:
+              type: sum
       - name: net_merch_dmd_ytd_ty_ly_pct
         description: ''
+        meta:
+          metrics:
+            net_merch_dmd_ytd_ty_ly_pct1:
+              type: sum
       - name: site_net_sls_fcst_amt_mtd
         description: ''
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_mtd1:
+              type: sum
       - name: site_net_sls_fcst_amt_qtd
         description: ''
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_qtd1:
+              type: sum
       - name: site_net_sls_fcst_amt_wtd
         description: ''
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_wtd1:
+              type: sum
       - name: site_net_sls_fcst_amt_ytd
         description: ''
+        meta:
+          metrics:
+            site_net_sls_fcst_amt_ytd1:
+              type: sum
       - name: traffic_in_conv_pct_mtd
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_mtd1:
+              type: sum
       - name: traffic_in_conv_pct_mtd_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_mtd_ly1:
+              type: sum
       - name: traffic_in_conv_pct_qtd
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_qtd1:
+              type: sum
       - name: traffic_in_conv_pct_qtd_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_qtd_ly1:
+              type: sum
       - name: traffic_in_conv_pct_wtd
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_wtd1:
+              type: sum
       - name: traffic_in_conv_pct_wtd_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_wtd_ly1:
+              type: sum
       - name: traffic_in_conv_pct_ytd
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_ytd1:
+              type: sum
       - name: traffic_in_conv_pct_ytd_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_conv_pct_ytd_ly1:
+              type: sum
       - name: traffic_in_qty_mtd
         description: ''
+        meta:
+          metrics:
+            mtraffic_in_qty_mtd1:
+              type: sum
       - name: traffic_in_qty_mtd_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_qty_mtd_ly1:
+              type: sum
       - name: traffic_in_qty_qtd
         description: ''
+        meta:
+          metrics:
+            traffic_in_qty_qtd1:
+              type: sum
       - name: traffic_in_qty_qtd_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_qty_qtd_ly1:
+              type: sum
       - name: traffic_in_qty_wtd
         description: ''
+        meta:
+          metrics:
+            traffic_in_qty_wtd1:
+              type: sum
       - name: traffic_in_qty_wtd_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_qty_wtd_ly1:
+              type: sum
       - name: traffic_in_qty_ytd
         description: ''
+        meta:
+          metrics:
+            traffic_in_qty_ytd1:
+              type: sum
       - name: traffic_in_qty_ytd_ly
         description: ''
+        meta:
+          metrics:
+            traffic_in_qty_ytd_ly1:
+              type: sum
       - name: txn_demand_qty
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty1:
+              type: sum
       - name: txn_demand_qty_ly
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_ly1:
+              type: sum
       - name: txn_demand_qty_mtd
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_mtd1:
+              type: sum
       - name: txn_demand_qty_mtd_ly
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_mtd_ly1:
+              type: sum
       - name: txn_demand_qty_qtd
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_qtd1:
+              type: sum
       - name: txn_demand_qty_qtd_ly
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_qtd_ly1:
+              type: sum
       - name: txn_demand_qty_wtd
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_wtd1:
+              type: sum
       - name: txn_demand_qty_wtd_ly
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_wtd_ly1:
+              type: sum
       - name: txn_demand_qty_ytd
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_ytd1:
+              type: sum
       - name: txn_demand_qty_ytd_ly
         description: ''
+        meta:
+          metrics:
+            txn_demand_qty_ytd_ly1:
+              type: sum
       - name: dmd_txn_sale_cnt
         description: ''
+        meta:
+          metrics:
+            dmd_txn_sale_cnt1:
+              type: sum
       - name: dmd_txn_sale_cnt_ly
         description: ''
+        meta:
+          metrics:
+            dmd_txn_sale_cnt_ly1:
+              type: sum
       - name: dmd_txn_sale_cnt_mtd
         description: ''
+        meta:
+          metrics:
+            dmd_txn_sale_cnt_mtd1:
+              type: sum
       - name: dmd_txn_sale_cnt_mtd_ly
         description: ''
+        meta:
+          metrics:
+            md_txn_sale_cnt_mtd_ly1:
+              type: sum
       - name: dmd_txn_sale_cnt_qtd
         description: ''
+        meta:
+          metrics:
+            dmd_txn_sale_cnt_qtd1:
+              type: sum
       - name: dmd_txn_sale_cnt_qtd_ly
         description: ''
       - name: dmd_txn_sale_cnt_wtd
         description: ''
+        meta:
+          metrics:
+            dmd_txn_sale_cnt_wtd1:
+              type: sum
       - name: dmd_txn_sale_cnt_wtd_ly
         description: ''
+        meta:
+          metrics:
+            dmd_txn_sale_cnt_wtd_ly1:
+              type: sum
       - name: dmd_txn_sale_cnt_ytd
         description: ''
       - name: dmd_txn_sale_cnt_ytd_ly
