@@ -438,7 +438,7 @@ models:
         description: ''
         meta:
           metrics:
-            merch_dmd_aov1:
+            traffic_in_conv_pct_ly1:
               type: sum
       - name: traffic_in_qty
         description: ''
