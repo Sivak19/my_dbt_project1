@@ -444,7 +444,7 @@ models:
         description: ''
         meta:
           metrics:
-            traffic_in_conv_pct_ly1:
+            traffic_in_qty1:
               type: sum
       - name: traffic_in_qty_ly
         description: ''
@@ -768,7 +768,7 @@ models:
         description: ''
         meta:
           metrics:
-            mtraffic_in_qty_mtd1:
+            traffic_in_qty_mtd1:
               type: sum
       - name: traffic_in_qty_mtd_ly
         description: ''
