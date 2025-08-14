@@ -347,228 +347,228 @@ models:
     description: "Store performance and demand metrics"
     columns:
       - name: date
-    description: ''
-  - name: dist_channel
-    description: ''
-  - name: loc_comp_status
-    description: ''
-  - name: loc_cannibalization_flag
-    description: ''
-  - name: market
-    description: ''
-  - name: store_number
-    description: ''
-  - name: store_division
-    description: ''
-  - name: store_name
-    description: ''
-  - name: merch_dmd_aov
-    description: ''
-  - name: merch_dmd_aov_ly
-    description: ''
-  - name: merch_dmd_aov_ty_ly_pct
-    description: ''
-  - name: merch_dmd_upt
-    description: ''
-  - name: merch_dmd_upt_ly
-    description: ''
-  - name: merch_dmd_upt_ty_ly_pct
-    description: ''
-  - name: net_merch_dmd
-    description: ''
-  - name: net_merch_dmd_ly
-    description: ''
-  - name: net_merch_dmd_ty_ly_pct
-    description: ''
-  - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
-    description: ''
-  - name: site_net_sls_fcst_amt
-    description: ''
-  - name: traffic_in_conv_pct
-    description: ''
-  - name: traffic_in_conv_pct_ly
-    description: ''
-  - name: traffic_in_qty
-    description: ''
-  - name: traffic_in_qty_ly
-    description: ''
-  - name: merch_dmd_aov_mtd
-    description: ''
-  - name: merch_dmd_aov_mtd_ly
-    description: ''
-  - name: merch_dmd_aov_mtd_ty_ly_pct
-    description: ''
-  - name: merch_dmd_aov_qtd
-    description: ''
-  - name: merch_dmd_aov_qtd_ly
-    description: ''
-  - name: merch_dmd_aov_qtd_ty_ly_pct
-    description: ''
-  - name: merch_dmd_aov_wtd
-    description: ''
-  - name: merch_dmd_aov_wtd_ly
-    description: ''
-  - name: merch_dmd_aov_wtd_ty_ly_pct
-    description: ''
-  - name: merch_dmd_aov_ytd
-    description: ''
-  - name: merch_dmd_aov_ytd_ly
-    description: ''
-  - name: merch_dmd_aov_ytd_ty_ly_pct
-    description: ''
-  - name: merch_dmd_upt_mtd
-    description: ''
-  - name: merch_dmd_upt_mtd_ly
-    description: ''
-  - name: merch_dmd_upt_mtd_ty_ly_pct
-    description: ''
-  - name: merch_dmd_upt_qtd
-    description: ''
-  - name: merch_dmd_upt_qtd_ly
-    description: ''
-  - name: merch_dmd_upt_qtd_ty_ly_pct
-    description: ''
-  - name: merch_dmd_upt_wtd
-    description: ''
-  - name: merch_dmd_upt_wtd_ly
-    description: ''
-  - name: merch_dmd_upt_wtd_ty_ly_pct
-    description: ''
-  - name: merch_dmd_upt_ytd
-    description: ''
-  - name: merch_dmd_upt_ytd_ly
-    description: ''
-  - name: merch_dmd_upt_ytd_ty_ly_pct
-    description: ''
-  - name: net_merch_dmd_mtd
-    description: ''
-  - name: net_merch_dmd_mtd_ly
-    description: ''
-  - name: net_merch_dmd_mtd_ty_ly_pct
-    description: ''
-  - name: net_merch_dmd_qtd
-    description: ''
-  - name: net_merch_dmd_qtd_ly
-    description: ''
-  - name: net_merch_dmd_qtd_ty_ly_pct
-    description: ''
-  - name: net_merch_dmd_vs_site_net_sls_fcst_amt_mtd_pct
-    description: ''
-  - name: net_merch_dmd_vs_site_net_sls_fcst_amt_qtd_pct
-    description: ''
-  - name: net_merch_dmd_vs_site_net_sls_fcst_amt_wtd_pct
-    description: ''
-  - name: net_merch_dmd_vs_site_net_sls_fcst_amt_ytd_pct
-    description: ''
-  - name: net_merch_dmd_wtd
-    description: ''
-  - name: net_merch_dmd_wtd_ly
-    description: ''
-  - name: net_merch_dmd_wtd_ty_ly_pct
-    description: ''
-  - name: net_merch_dmd_ytd
-    description: ''
-  - name: net_merch_dmd_ytd_ly
-    description: ''
-  - name: net_merch_dmd_ytd_ty_ly_pct
-    description: ''
-  - name: site_net_sls_fcst_amt_mtd
-    description: ''
-  - name: site_net_sls_fcst_amt_qtd
-    description: ''
-  - name: site_net_sls_fcst_amt_wtd
-    description: ''
-  - name: site_net_sls_fcst_amt_ytd
-    description: ''
-  - name: traffic_in_conv_pct_mtd
-    description: ''
-  - name: traffic_in_conv_pct_mtd_ly
-    description: ''
-  - name: traffic_in_conv_pct_qtd
-    description: ''
-  - name: traffic_in_conv_pct_qtd_ly
-    description: ''
-  - name: traffic_in_conv_pct_wtd
-    description: ''
-  - name: traffic_in_conv_pct_wtd_ly
-    description: ''
-  - name: traffic_in_conv_pct_ytd
-    description: ''
-  - name: traffic_in_conv_pct_ytd_ly
-    description: ''
-  - name: traffic_in_qty_mtd
-    description: ''
-  - name: traffic_in_qty_mtd_ly
-    description: ''
-  - name: traffic_in_qty_qtd
-    description: ''
-  - name: traffic_in_qty_qtd_ly
-    description: ''
-  - name: traffic_in_qty_wtd
-    description: ''
-  - name: traffic_in_qty_wtd_ly
-    description: ''
-  - name: traffic_in_qty_ytd
-    description: ''
-  - name: traffic_in_qty_ytd_ly
-    description: ''
-  - name: txn_demand_qty
-    description: ''
-  - name: txn_demand_qty_ly
-    description: ''
-  - name: txn_demand_qty_mtd
-    description: ''
-  - name: txn_demand_qty_mtd_ly
-    description: ''
-  - name: txn_demand_qty_qtd
-    description: ''
-  - name: txn_demand_qty_qtd_ly
-    description: ''
-  - name: txn_demand_qty_wtd
-    description: ''
-  - name: txn_demand_qty_wtd_ly
-    description: ''
-  - name: txn_demand_qty_ytd
-    description: ''
-  - name: txn_demand_qty_ytd_ly
-    description: ''
-  - name: dmd_txn_sale_cnt
-    description: ''
-  - name: dmd_txn_sale_cnt_ly
-    description: ''
-  - name: dmd_txn_sale_cnt_mtd
-    description: ''
-  - name: dmd_txn_sale_cnt_mtd_ly
-    description: ''
-  - name: dmd_txn_sale_cnt_qtd
-    description: ''
-  - name: dmd_txn_sale_cnt_qtd_ly
-    description: ''
-  - name: dmd_txn_sale_cnt_wtd
-    description: ''
-  - name: dmd_txn_sale_cnt_wtd_ly
-    description: ''
-  - name: dmd_txn_sale_cnt_ytd
-    description: ''
-  - name: dmd_txn_sale_cnt_ytd_ly
-    description: ''
-  - name: txn_demand_amt
-    description: ''
-  - name: txn_demand_amt_ly
-    description: ''
-  - name: txn_demand_amt_mtd
-    description: ''
-  - name: txn_demand_amt_mtd_ly
-    description: ''
-  - name: txn_demand_amt_qtd
-    description: ''
-  - name: txn_demand_amt_qtd_ly
-    description: ''
-  - name: txn_demand_amt_wtd
-    description: ''
-  - name: txn_demand_amt_wtd_ly
-    description: ''
-  - name: txn_demand_amt_ytd
-    description: ''
-  - name: txn_demand_amt_ytd_ly
-    description: ''
+        description: ''
+      - name: dist_channel
+        description: ''
+      - name: loc_comp_status
+        description: ''
+      - name: loc_cannibalization_flag
+        description: ''
+      - name: market
+        description: ''
+      - name: store_number
+        description: ''
+      - name: store_division
+        description: ''
+      - name: store_name
+        description: ''
+      - name: merch_dmd_aov
+        description: ''
+      - name: merch_dmd_aov_ly
+        description: ''
+      - name: merch_dmd_aov_ty_ly_pct
+        description: ''
+      - name: merch_dmd_upt
+        description: ''
+      - name: merch_dmd_upt_ly
+        description: ''
+      - name: merch_dmd_upt_ty_ly_pct
+        description: ''
+      - name: net_merch_dmd
+        description: ''
+      - name: net_merch_dmd_ly
+        description: ''
+      - name: net_merch_dmd_ty_ly_pct
+        description: ''
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_pct
+        description: ''
+      - name: site_net_sls_fcst_amt
+        description: ''
+      - name: traffic_in_conv_pct
+        description: ''
+      - name: traffic_in_conv_pct_ly
+        description: ''
+      - name: traffic_in_qty
+        description: ''
+      - name: traffic_in_qty_ly
+        description: ''
+      - name: merch_dmd_aov_mtd
+        description: ''
+      - name: merch_dmd_aov_mtd_ly
+        description: ''
+      - name: merch_dmd_aov_mtd_ty_ly_pct
+        description: ''
+      - name: merch_dmd_aov_qtd
+        description: ''
+      - name: merch_dmd_aov_qtd_ly
+        description: ''
+      - name: merch_dmd_aov_qtd_ty_ly_pct
+        description: ''
+      - name: merch_dmd_aov_wtd
+        description: ''
+      - name: merch_dmd_aov_wtd_ly
+        description: ''
+      - name: merch_dmd_aov_wtd_ty_ly_pct
+        description: ''
+      - name: merch_dmd_aov_ytd
+        description: ''
+      - name: merch_dmd_aov_ytd_ly
+        description: ''
+      - name: merch_dmd_aov_ytd_ty_ly_pct
+        description: ''
+      - name: merch_dmd_upt_mtd
+        description: ''
+      - name: merch_dmd_upt_mtd_ly
+        description: ''
+      - name: merch_dmd_upt_mtd_ty_ly_pct
+        description: ''
+      - name: merch_dmd_upt_qtd
+        description: ''
+      - name: merch_dmd_upt_qtd_ly
+        description: ''
+      - name: merch_dmd_upt_qtd_ty_ly_pct
+        description: ''
+      - name: merch_dmd_upt_wtd
+        description: ''
+      - name: merch_dmd_upt_wtd_ly
+        description: ''
+      - name: merch_dmd_upt_wtd_ty_ly_pct
+        description: ''
+      - name: merch_dmd_upt_ytd
+        description: ''
+      - name: merch_dmd_upt_ytd_ly
+        description: ''
+      - name: merch_dmd_upt_ytd_ty_ly_pct
+        description: ''
+      - name: net_merch_dmd_mtd
+        description: ''
+      - name: net_merch_dmd_mtd_ly
+        description: ''
+      - name: net_merch_dmd_mtd_ty_ly_pct
+        description: ''
+      - name: net_merch_dmd_qtd
+        description: ''
+      - name: net_merch_dmd_qtd_ly
+        description: ''
+      - name: net_merch_dmd_qtd_ty_ly_pct
+        description: ''
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_mtd_pct
+        description: ''
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_qtd_pct
+        description: ''
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_wtd_pct
+        description: ''
+      - name: net_merch_dmd_vs_site_net_sls_fcst_amt_ytd_pct
+        description: ''
+      - name: net_merch_dmd_wtd
+        description: ''
+      - name: net_merch_dmd_wtd_ly
+        description: ''
+      - name: net_merch_dmd_wtd_ty_ly_pct
+        description: ''
+      - name: net_merch_dmd_ytd
+        description: ''
+      - name: net_merch_dmd_ytd_ly
+        description: ''
+      - name: net_merch_dmd_ytd_ty_ly_pct
+        description: ''
+      - name: site_net_sls_fcst_amt_mtd
+        description: ''
+      - name: site_net_sls_fcst_amt_qtd
+        description: ''
+      - name: site_net_sls_fcst_amt_wtd
+        description: ''
+      - name: site_net_sls_fcst_amt_ytd
+        description: ''
+      - name: traffic_in_conv_pct_mtd
+        description: ''
+      - name: traffic_in_conv_pct_mtd_ly
+        description: ''
+      - name: traffic_in_conv_pct_qtd
+        description: ''
+      - name: traffic_in_conv_pct_qtd_ly
+        description: ''
+      - name: traffic_in_conv_pct_wtd
+        description: ''
+      - name: traffic_in_conv_pct_wtd_ly
+        description: ''
+      - name: traffic_in_conv_pct_ytd
+        description: ''
+      - name: traffic_in_conv_pct_ytd_ly
+        description: ''
+      - name: traffic_in_qty_mtd
+        description: ''
+      - name: traffic_in_qty_mtd_ly
+        description: ''
+      - name: traffic_in_qty_qtd
+        description: ''
+      - name: traffic_in_qty_qtd_ly
+        description: ''
+      - name: traffic_in_qty_wtd
+        description: ''
+      - name: traffic_in_qty_wtd_ly
+        description: ''
+      - name: traffic_in_qty_ytd
+        description: ''
+      - name: traffic_in_qty_ytd_ly
+        description: ''
+      - name: txn_demand_qty
+        description: ''
+      - name: txn_demand_qty_ly
+        description: ''
+      - name: txn_demand_qty_mtd
+        description: ''
+      - name: txn_demand_qty_mtd_ly
+        description: ''
+      - name: txn_demand_qty_qtd
+        description: ''
+      - name: txn_demand_qty_qtd_ly
+        description: ''
+      - name: txn_demand_qty_wtd
+        description: ''
+      - name: txn_demand_qty_wtd_ly
+        description: ''
+      - name: txn_demand_qty_ytd
+        description: ''
+      - name: txn_demand_qty_ytd_ly
+        description: ''
+      - name: dmd_txn_sale_cnt
+        description: ''
+      - name: dmd_txn_sale_cnt_ly
+        description: ''
+      - name: dmd_txn_sale_cnt_mtd
+        description: ''
+      - name: dmd_txn_sale_cnt_mtd_ly
+        description: ''
+      - name: dmd_txn_sale_cnt_qtd
+        description: ''
+      - name: dmd_txn_sale_cnt_qtd_ly
+        description: ''
+      - name: dmd_txn_sale_cnt_wtd
+        description: ''
+      - name: dmd_txn_sale_cnt_wtd_ly
+        description: ''
+      - name: dmd_txn_sale_cnt_ytd
+        description: ''
+      - name: dmd_txn_sale_cnt_ytd_ly
+        description: ''
+      - name: txn_demand_amt
+        description: ''
+      - name: txn_demand_amt_ly
+        description: ''
+      - name: txn_demand_amt_mtd
+        description: ''
+      - name: txn_demand_amt_mtd_ly
+        description: ''
+      - name: txn_demand_amt_qtd
+        description: ''
+      - name: txn_demand_amt_qtd_ly
+        description: ''
+      - name: txn_demand_amt_wtd
+        description: ''
+      - name: txn_demand_amt_wtd_ly
+        description: ''
+      - name: txn_demand_amt_ytd
+        description: ''
+      - name: txn_demand_amt_ytd_ly
+        description: ''
