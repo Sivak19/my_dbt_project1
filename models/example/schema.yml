@@ -408,7 +408,7 @@ models:
         description: ''
         meta:
           metrics:
-            net_merch_dmd_ly:
+            net_merch_dmd_ly1:
               type: sum
       - name: net_merch_dmd_ty_ly_pct
         description: ''
@@ -558,7 +558,7 @@ models:
         description: ''
         meta:
           metrics:
-            merch_dmd_upt_qtd_ty_ly_pct:
+            merch_dmd_upt_qtd_ty_ly_pct1:
               type: sum
       - name: merch_dmd_upt_wtd
         description: ''
