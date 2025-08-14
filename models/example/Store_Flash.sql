@@ -1,1 +1,1 @@
-select * from NA_Store_data
+select * from store_merchandise
